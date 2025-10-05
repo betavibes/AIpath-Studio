@@ -1,5 +1,6 @@
 import ContactHeroSection from "@/components/contact/ContactHeroSection";
 import ContactFormSection from "@/components/contact/ContactFormSection";
+import ScheduleDemoSection from "@/components/contact/ScheduleDemoSection";
 import DirectContactSection from "@/components/contact/DirectContactSection";
 import QuickLinksSection from "@/components/contact/QuickLinksSection";
 import StickyDemoCTA from "@/components/contact/StickyDemoCTA";
@@ -20,6 +21,9 @@ export default function ContactPage() {
 
       {/* Contact Form Section */}
       <ContactFormSection />
+
+      {/* Schedule Demo Section */}
+      <ScheduleDemoSection />
 
       {/* Direct Contact Options */}
       <DirectContactSection />
